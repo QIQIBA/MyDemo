@@ -1,5 +1,4 @@
-package com.paomian.time;
-import java.text.ParseException;
+package com.paomian.util;
 import java.text.ParsePosition;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
