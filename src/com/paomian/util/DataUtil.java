@@ -18,7 +18,7 @@ public class DataUtil {
      * @return：  返回字符串格式 yyyy-MM-dd HH:mm:ss
      **/
     public static String getNowDateTimeStr() {
-        Date currentTime = new Date();
+        Date currentTime = new Date();//
         SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
         String dateTimeString = formatter.format(currentTime);
         return dateTimeString;
